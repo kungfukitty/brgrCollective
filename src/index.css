@@ -1,0 +1,10 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+:root { color-scheme: dark; }
+body { @apply text-white; }
